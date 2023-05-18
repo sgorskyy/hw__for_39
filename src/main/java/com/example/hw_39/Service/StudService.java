@@ -17,9 +17,9 @@ public class StudService{
         List<Student> students = sr.findAll();
 
         for (Student student : students) {
-            studentView += student.getFName() + "<BR>";
-            studentView += student.getLName() + "<BR>";
-            studentView += student.getGroup_id() + "<BR>";
+            studentView += "First name: " + student.getFName() + "<BR>";
+            studentView += "Last name: " + student.getLName() + "<BR>";
+            studentView += "Group :" + student.getGroup_id() + "<BR>";
             studentView += "-----------------" + "<BR>";
         }
 

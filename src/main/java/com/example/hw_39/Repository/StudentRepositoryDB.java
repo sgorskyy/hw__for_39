@@ -8,18 +8,14 @@ import java.util.List;
 
 public class StudentRepositoryDB implements StudentRepository {
 
+    private List<Student> students;
     @Override
     public List<Student> findAll() {
-        List<Student> students = List.of(
-                new Student(1, "Serge", "Ivanov 1"),
-                new Student(2, "Serge", "Ivanov 2"),
-                new Student(3, "Serge", "Ivanov 3")
+        students = List.of(
+                new Student(1, "Serge", "Semeniv"),
+                new Student(2, "Anna", "Drok"),
+                new Student(2, "Bohdan", "Chem")
         );
         return students;
-    }
-
-    @Override
-    public String toString() {
-        return "StudentRepositoryDB{}";
     }
 }
