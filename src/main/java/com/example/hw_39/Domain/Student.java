@@ -3,6 +3,7 @@ package com.example.hw_39.Domain;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+
 @Data
 @AllArgsConstructor
 public class Student {
