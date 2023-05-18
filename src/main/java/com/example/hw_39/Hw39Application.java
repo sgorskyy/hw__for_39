@@ -9,5 +9,4 @@ public class Hw39Application {
     public static void main(String[] args) {
         SpringApplication.run(Hw39Application.class, args);
     }
-
 }
