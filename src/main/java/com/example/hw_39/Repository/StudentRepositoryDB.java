@@ -14,7 +14,7 @@ public class StudentRepositoryDB implements StudentRepository {
         students = List.of(
                 new Student(1, "Serge", "Semeniv"),
                 new Student(2, "Anna", "Drok"),
-                new Student(2, "Bohdan", "Chem")
+                new Student(2, "Bohdan", "Chemik")
         );
         return students;
     }
